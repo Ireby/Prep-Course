@@ -1,0 +1,57 @@
+h1 {
+    color:white;
+
+ 
+}
+img {
+    width:400px;
+    border: 1px solid;
+    border-radius: 30px;
+
+}
+.thirdDiv{
+    height: 600px;
+    background-color:plum;
+   
+}
+#spanId{
+    margin: 50px;
+    padding: 50px;
+    border: 1px     solid;
+    border-radius: 30px;
+    border-color: white;
+    font-size: 18px;
+  
+}
+a {
+    margin: 50px;
+    padding: 50px;
+    color:black;
+    border-top:1px solid;  
+    border-radius: 30px;
+    border-color: white;
+    
+  }
+div{
+  border: 2px solid rgb(226, 226, 230);
+  margin: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-image: linear-gradient(90deg, #e2ade0, #c283b7,#a93f97);
+    /*background-image: url(https://cdn.pixabay.com/photo/2016/06/26/22/32/background-1481478_960_720.jpg); */
+    font-family: roboto, serif;
+  
+}

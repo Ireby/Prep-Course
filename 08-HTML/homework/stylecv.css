@@ -1,0 +1,148 @@
+ body {
+   
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/26/22/32/background-1481478_960_720.jpg); 
+     font-family: roboto, serif; 
+  
+}
+img {
+    
+    border: 1px solid;
+    color:#2b9157;  
+    border-radius: 50%;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+div
+{   border-radius: 10px;
+    border:1px solid rgb(237, 245, 238);
+   
+    }
+#header
+{
+    position: fixed;
+    height:40px;
+    width: 98%;
+    background-image: linear-gradient(90deg, #ade2b1, #83c28b,#159226);
+    margin-bottom: 10px;
+    
+    }
+
+
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+	color: #ffffff;
+}
+#name {
+    float: left;
+    margin:20px;    
+    padding-bottom: 10px;
+	font-size: 16px;
+	font-family: 'Courier New', Courier, monospace;
+	color: #ffffff;
+    font-display:inherit;
+}
+#contact
+{
+    
+    float:right;
+    padding-bottom: 10px;
+	font-size: 16px;
+	font-family: 'Courier New', Courier, monospace;
+	color: #ffffff;
+    }
+
+a:hover {
+    font-weight: bold;
+}
+
+.right
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
+    /*margin-right: -10px;
+    margin-left: 14%;*/
+    height: auto;
+    width: 99%;
+    background-color: #E3EDD8;
+    }
+
+.left
+{
+    float: left;
+    margin-top: 50px;
+    margin-right: -90px;
+    height: relative;
+    width: 10%;
+    background-color: #27a716;
+    }
+    
+#footer
+{
+    height:40px;
+    clear:both;
+    position: relative;
+    background-image: linear-gradient(90deg, #ade2b1, #83c28b,#159226); 
+    }
+    
+h3
+{    display:flex;
+    justify-content:center;
+    
+    font-weight:bold;
+    color:#16a73a
+    }
+
+h1 {
+    margin-left: 30%;
+   
+    color:#16a777
+}
+table
+{
+    display:flex;
+    justify-content:center;
+   
+    }
+td
+{
+    align-items: center;
+    padding: 2px;
+    border: 1px solid #0b9b2f;
+    }
+
+#course-name
+{
+    font-weight:bold;
+    }
+
+#company-name
+{
+    height:2px;
+    text-decoration:underline;
+    }
+#job-title
+{
+    height: 5px;
+    }
+.job-duration
+{
+    float:right;
+    }
+#heading
+{
+    font-weight:bold;
+    }
